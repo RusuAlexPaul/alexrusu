@@ -1,8 +1,18 @@
 body {
     background-color: #E4E4E4;
+    font-family: 'Raleway', sans-serif;
 }
 header {
     background-color: #E4E4E4;
+}
+.h2-title{
+    font-weight: 800;
+}
+.subtitle{
+    font-weight: 600;
+}
+.btn-light:hover {
+    background-color: #E4E4E4 !important;
 }
 .container, .team-2{
     background-color: #E4E4E4 !important;
