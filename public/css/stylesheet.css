@@ -7,3 +7,34 @@ header {
 .container, .team-2{
     background-color: #E4E4E4 !important;
 }
+.hover-animation {
+    position: relative;
+    height: 40px;
+    width: auto;
+}
+.hover-animation img{
+    position: absolute;
+    left: 0;
+    width: auto;
+    transition: opacity 0.05s ease-in-out;
+}
+.hover-animation img.icon-fb-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.hover-animation img.icon-t-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.hover-animation img.icon-ig-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.hover-animation img.icon-g-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.hover-animation img.icon-li-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}
