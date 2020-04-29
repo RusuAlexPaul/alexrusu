@@ -1,9 +1,39 @@
-body {
-    background-color: #E4E4E4;
+.primary-text {
+  font-family: 'DM Serif Text', serif;
+  font-size: 3rem;
 }
-header {
-    background-color: #E4E4E4;
+.btn-light{
+    color: #746D69;
+    background-color: transparent !important;
+    border-color: #746D69 !important;
 }
-.container, .team-2{
-    background-color: #E4E4E4 !important;
+.btn-light:hover{
+    color: #E8E9EB;
+    background-color: #746D69 !important;
+    border-color: #746D69 !important;
 }
+.footer-icon{
+  color: #E8E9EB !important;
+}
+.footer-icon:hover{
+  color: #BBBCB6 !important;
+}
+.home-icons{
+  color: #746D69 !important;
+}
+.home-icons:hover{
+  animation-duration: 2s;
+  color: black !important;
+}
+.work-hover {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .5s ease-in-out;  
+    }
+
+    img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.3);
+    }

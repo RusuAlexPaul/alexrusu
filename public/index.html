@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <title>Alex Rusu</title>
   </head>
-  <body>
-    <header>
+  <body class="bg-light">
+    <header class="bg-light">
       <div class="container team-2">
         <nav class="navbar navbar-expand-md">
           
@@ -26,13 +26,13 @@
           <div class="collapse navbar-collapse" id="navbarNav3">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="https://www.froala.com">home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-dark" href="https://www.froala.com">home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">works</a>
+                <a class="nav-link text-dark" href="#works">works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">contact</a>
+                <a class="nav-link text-dark" href="https://www.froala.com">contact</a>
               </li>
             </ul>
             <a class="btn btn-light ml-md-3" href="https://www.froala.com">hire me</a>
@@ -40,59 +40,95 @@
         </nav>
       </div>
     </header>
-
-    <section class="fdb-block team-2">
-      <div class="container team-2">
-        <div class="row text-center justify-content-center">
-          <div class="col-sm-2 m-sm-auto">
-            <img alt="image" class="img-fluid rounded-circle" src="/imgs/profile_pic.png">
-            
-            <h2 class="text-center">Alex Rusu</h2>
-            <p>Founder</p>
+    
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-5">
+            <h1 class="primary-text">I am <br> a Web Developer!</h1>
+            <p class="lead">Check out my <a href="#" class="btn btn-outline-dark"> Resume </a></p>
+            <p class="h6">
+              <a href="https://www.froala.com" class="mx-2 home-icons"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.froala.com" class="mx-2 home-icons"><i class="fab fa-google"></i></a>
+              <a href="https://www.froala.com" class="mx-2 home-icons"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.froala.com" class="mx-2 home-icons"><i class="fab fa-instagram"></i></a>
+            </p>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-10 col-md-8 col-lg-4 text-center">
-            <p class="lead">
-              follow me and ask more on:
-            </p>
-            <p class="h2">
-              <a href="https://www.froala.com" class="mx-2"><i class="fab fa-facebook"></i></a>
-              <a href="https://www.froala.com" class="mx-2"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.froala.com" class="mx-2"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.froala.com" class="mx-2"><i class="fab fa-google"></i></a>
-            </p>
+          <div class="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
+            <img alt="image" class="img-fluid" src="./imgs/shapes/2.svg">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="fdb-block team-2">
-      <div class="container team-2">
+    <section class="fdb-block p-0">
+      <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-lg-8">
-            <h2>
-              works
+            <h2 id="works" class="text-dark">
+              Works
             </h2>
-            <p class="lead">our past clients recommend us be one of them</p>
-            <div class="mt-5 justify-content-center">
+            <p class="lead text-dark">our past clients recommend us be one of them</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fdb-block">
+      <div class="container">
+        <div class="row text-left">
+          
+          <div class="col-12 col-md-8 m-auto col-lg-4">
+            <div class="fdb-box text-center justify-content-center">
+              <h4>Dutylabs Academy</h4>
               <a href="https://academy.dutylabs.ro" target="_blank">
-                <img alt="image" height="50" class="ml-3 mr-3 mb-2 mt-2" src="/imgs/customers/dutylabs-logo.png">
-              </a>
-              <a href="https://onedayhandyman.com" target="_blank">
-                <img alt="image" height="50" class="ml-3 mr-3 mb-2 mt-2" src="/imgs/customers/1dayhandyman-logo.png">
-              </a>
-              <a href="https://georgepires.com" target="_blank">
-                <img alt="image" height="50" class="ml-3 mr-3 mb-2 mt-2" src="/imgs/customers/gp-logo.png">
-              </a>
-              <a href="https://marcolori.com/" target="_blank">
-                <img alt="image" height="40" class="ml-3 mr-3 mb-2 mt-2" src="/imgs/customers/marcolori-logo.png">
+                <img alt="image" height="70" class="m-1 work-hover" src="/imgs/customers/logo-dutylabs-shadow.png">
               </a>
             </div>
           </div>
+
+          <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0">
+            <div class="fdb-box text-center justify-content-center">
+              <h4>Georgepires</h4>
+              <a href="https://onedayhandyman.com" target="_blank">
+                <img alt="image" height="50" class="m-1 work-hover" src="/imgs/customers/gp-logo.png">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0">
+            <div class="fdb-box text-center justify-content-center">
+              <h4>Marcolori</h4>
+              <a href="https://marcolori.com" target="_blank">
+                <img alt="image" height="50" class="m-1 work-hover" src="/imgs/customers/marcolori-logo.png">
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
+<footer class="fdb-block footer-small bg-dark">
+  <div class="container">
+    <div class="row text-center align-items-center">
+      <div class="col mt-4 mt-md-0 text-center text-lg-left">
+        <a href="https://www.froala.com" class="btn btn-outline-light">Contact Us</a>
+      </div>
+      
+      <div class="col-12 col-lg-2 mt-4 mt-lg-0 text-lg-right">
+        <a href="https://www.froala.com" class="mx-2 footer-icon"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" class="mx-2 footer-icon"><i class="fab fa-google" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" class="mx-2 footer-icon"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" class="mx-2 footer-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      
+      <div class="col-12 text-center justify-content-center">
+          © 2020 Alex Rusu. All Rights Reserved
+      </div>
+
+    </div>
+  </div>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
