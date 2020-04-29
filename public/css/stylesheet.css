@@ -1,13 +1,36 @@
-.primary-text {
-  font-family: 'DM Serif Text', serif;
-  font-size: 3rem;
+.text1{
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#808080 ;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 0.5;
+  margin-bottom: .5rem;
 }
-.btn-light{
+.btn{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.lead{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #808080;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.primary-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: #474747;
+  line-height: 1;
+  margin-bottom: .5rem;
+  font-size: 3.5rem;
+}
+.btn-dark{
     color: #746D69;
     background-color: transparent !important;
     border-color: #746D69 !important;
 }
-.btn-light:hover{
+.btn-dark:hover{
     color: #E8E9EB;
     background-color: #746D69 !important;
     border-color: #746D69 !important;
