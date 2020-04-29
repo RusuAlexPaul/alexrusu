@@ -23,8 +23,23 @@
   color: #474747;
   line-height: 1;
   margin-bottom: .5rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
+.work-section{
+  background-color: #f8f9fadc !important;
+}
+.fdb-box{
+  background-color: rgb(223, 223, 223) !important;
+  width: 350px !important;
+  height: 350px !important;
+
+}
+.works{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: #474747;
+}
+
 .btn-dark{
     color: #746D69;
     background-color: transparent !important;
@@ -60,3 +75,74 @@
       -webkit-filter: grayscale(0);
       -webkit-transform: scale(1.3);
     }
+/* DEMO 3  */
+.hover-3::after {
+  content: '';
+  width: calc(100% - 3rem);
+  height: calc(100% - 3rem);
+  border: 1px solid rgb(0, 0, 0);
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 90;
+  transition: all 0.3s;
+  transform: scale(1.1);
+  opacity: 0;
+  display: block;
+}
+
+.hover-3-content {
+  position: absolute;
+  top: 65%;
+  left: 1%;
+  width: 100%;
+  text-align: center;
+  z-index: 50;
+}
+
+.hover-3-description {
+  opacity: 0;
+  top: 45%;
+  font-size: 1.5rem;
+  right: 35%;
+  transform: scale(1.3);
+  transition: all 0.3s;
+}
+
+.hover-3 img {
+  width: 100%;
+  height: 100%;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+   filter: none;
+    -webkit-filter: grayscale(1);
+    -webkit-transform: scale(1);
+}
+
+.hover-3 .hover-overlay {
+  background: rgb(0, 0, 0) !important;
+}
+
+.hover-3:hover img {
+  width: 100%;
+  filter: none;
+    -webkit-transition: all .5s ease-in-out; 
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1);
+
+}
+
+.hover-3:hover::after {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-3-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-3:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
