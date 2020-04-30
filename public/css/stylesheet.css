@@ -13,6 +13,14 @@
 .btn{
   font-family: 'Source Sans Pro', sans-serif;
 }
+.fdb-block .fdb-box {
+    background: #FFF;
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: #444;
+    border-radius: .25rem;
+    box-shadow: 0 .001rem .001rem 0 rgba(129,129,129,.2)!important;
+}
 .lead{
   font-family: 'Source Sans Pro', sans-serif;
   color: #808080;
@@ -30,15 +38,15 @@
   font-size: 3rem;
 }
 .work-section{
-  background-color: #f8f9fadc !important;
+  background-color: #f1f1f1 !important;
 }
 .fdb-box{
-  background-color: rgb(223, 223, 223) !important;
+  background-color: rgb(231, 231, 231) !important;
   width: 250px !important;
   height: 250px !important;
 }
 .fdb-box:hover{
-  background-color: #2d313c !important;
+  background-color: #f5f5f5 !important;
   transition: all 1s;
 }
 .works{
@@ -78,7 +86,7 @@
   content: '';
   width: 230px;
   height: 230px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
   position: absolute;
   top: .6rem;
   left: 1.6rem;
@@ -137,7 +145,7 @@
 
 .hover-3:hover .hover-3-description {
   opacity: 1;
-  color: white !important;
+  color: #474747 !important;
   font-family: 'Source Sans Pro', sans-serif;
   top: 45%;
   right: 25%;
@@ -146,6 +154,6 @@
   transition: all 0.5s;
 }
 .hover-3-description:hover{
-  color: white;
+  color: #474747;;
 }
 
