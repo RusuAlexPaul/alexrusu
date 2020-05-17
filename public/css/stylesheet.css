@@ -1,3 +1,10 @@
+html, body{
+  overflow-x: hidden;
+}
+a{
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
 .text1{
   font-family: 'Source Sans Pro', sans-serif;
   color:#808080 ;
@@ -7,36 +14,187 @@
   margin-bottom: .5rem;
 }
 .btn{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 .lead{
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #808080;
-  font-size: 1rem;
-  font-weight: 600;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: black;
+  font-size: 21px;
+  font-weight: 300;
   line-height: 1;
   margin-bottom: 2rem;
 }
+.bold-nomad{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  color: black;
+  font-size: 60px;
+}
 .primary-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  color: #474747;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: black;
   line-height: 1;
   margin-bottom: .5rem;
-  font-size: 3rem;
+  font-size: 60px;
 }
+.profile-website {
+  top: 150px;
+  right: 0;
+  width: 600px;
+  height: auto;
+  position: absolute;
+}
+
+.container1{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 50px !important;
+  margin-left: 200px;
+}
+
+.fdb-block {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    padding: 15.5rem 0;
+    position: relative;
+    background-size: cover;
+    background-color: transparent !important;
+}
+
+.twitter-icon {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  display: inline-block;
+}
+.twitter-icon .img-top{
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 99;
+
+}
+.twitter-icon:hover .img-top{
+  display: inline;
+}
+
+.github-icon {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  display: inline-block;
+}
+.github-icon .img-top{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+}
+.github-icon:hover .img-top{
+ display: inline;
+}
+
+.linkedin-icon {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  display: inline-block;
+}
+.linkedin-icon .img-top{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.linkedin-icon:hover .img-top{
+ display: inline;
+}
+
+.web-design-icon {
+  cursor: pointer;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: inline-block;
+}
+.web-design-icon .img-top{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 80px;
+  z-index: 99;
+}
+.web-design-icon:hover .img-top{
+ display: inline;
+}
+
+.web-dev-icon {
+  cursor: pointer;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: inline-block;
+}
+.web-dev-icon .img-top{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 80px;
+  z-index: 99;
+}
+.web-dev-icon:hover .img-top{
+ display: inline;
+}
+
+.wordpress-icon {
+  cursor: pointer;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  display: inline-block;
+}
+.wordpress-icon .img-top{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 80px;
+  z-index: 99;
+}
+.wordpress-icon:hover .img-top{
+ display: inline;
+}
+
 .work-section{
   background-color: #f8f9fadc !important;
 }
-.fdb-box{
-  background-color: rgb(223, 223, 223) !important;
-  width: 350px !important;
-  height: 350px !important;
+.fdb-block .fdb-box {
+  background: #FFF;
+  padding: 0;
+  overflow: hidden;
+  color: #444;
+  border-radius: .25rem;
+  box-shadow: 0 .3125rem .875rem 0 rgba(129,129,129,.2)!important;
+  height: 300px !important;
+} 
 
+  .services{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  color: #474747;
 }
 .works{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
   color: #474747;
 }
 
@@ -66,83 +224,13 @@
 .work-hover {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
       -webkit-transition: all .5s ease-in-out;  
     }
 
     img:hover {
     filter: none;
       -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1.3);
+      -webkit-transform: scale(1);
     }
-/* DEMO 3  */
-.hover-3::after {
-  content: '';
-  width: calc(100% - 3rem);
-  height: calc(100% - 3rem);
-  border: 1px solid rgb(0, 0, 0);
-  position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
-  z-index: 90;
-  transition: all 0.3s;
-  transform: scale(1.1);
-  opacity: 0;
-  display: block;
-}
-
-.hover-3-content {
-  position: absolute;
-  top: 65%;
-  left: 1%;
-  width: 100%;
-  text-align: center;
-  z-index: 50;
-}
-
-.hover-3-description {
-  opacity: 0;
-  top: 45%;
-  font-size: 1.5rem;
-  right: 35%;
-  transform: scale(1.3);
-  transition: all 0.3s;
-}
-
-.hover-3 img {
-  width: 100%;
-  height: 100%;
-  top: 30%;
-  left: 30%;
-  right: 30%;
-   filter: none;
-    -webkit-filter: grayscale(1);
-    -webkit-transform: scale(1);
-}
-
-.hover-3 .hover-overlay {
-  background: rgb(0, 0, 0) !important;
-}
-
-.hover-3:hover img {
-  width: 100%;
-  filter: none;
-    -webkit-transition: all .5s ease-in-out; 
-    -webkit-filter: grayscale(0);
-    -webkit-transform: scale(1);
-
-}
-
-.hover-3:hover::after {
-  opacity: 1;
-  transform: none;
-}
-
-.hover-3:hover .hover-3-description {
-  opacity: 1;
-  transform: none;
-}
-
-.hover-3:hover .hover-overlay {
-  background: rgba(0, 0, 0, 0.2);
-}
+  }

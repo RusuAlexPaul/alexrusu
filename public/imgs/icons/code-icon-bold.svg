@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <g id="Group_17" data-name="Group 17" transform="translate(227 -5347)">
+    <g id="Ellipse_1189" data-name="Ellipse 1189" transform="translate(-227 5347)" fill="none" stroke="#000" stroke-width="15">
+      <circle cx="400" cy="400" r="400" stroke="none"/>
+      <circle cx="400" cy="400" r="392.5" fill="none"/>
+    </g>
+    <g id="Ellipse_1190" data-name="Ellipse 1190" transform="translate(-227 5347)" stroke="#000" stroke-width="15">
+      <circle cx="400" cy="400" r="400" stroke="none"/>
+      <circle cx="400" cy="400" r="392.5" fill="none"/>
+    </g>
+    <path id="Subtraction_10" data-name="Subtraction 10" d="M401,281H0V21A20.983,20.983,0,0,1,21,0H380a20.983,20.983,0,0,1,21,21ZM16,15V266H385V15Z" transform="translate(-28 5585)" fill="#fff"/>
+    <path id="Subtraction_11" data-name="Subtraction 11" d="M237.428,32.841c-51.813,0-97-.2-130.671-.568C68.5,31.85,45.818,31.221,39.353,30.4,21.972,28.2,12.2,25.7,7.059,23.99,1.486,22.133.014,20.782,0,20.768V7H228V9.176a4,4,0,0,0,4,4h96a4,4,0,0,0,4-4V7H558V21.342l-.008,0a131.254,131.254,0,0,1-13.5,4.557c-4.748,1.346-9.489,2.443-14.093,3.262a111.676,111.676,0,0,1-16.508,1.749C456.368,32.049,342.681,32.841,237.428,32.841Z" transform="translate(-106 5877)" fill="#fff"/>
+    <path id="Union_5" data-name="Union 5" d="M86.13,98.1,15.31,58.842l.072.149L.3,50.711l5.419-3.1-.057-.1L86.13,2.909a6,6,0,1,1,5.818,10.5L25.019,50.5,91.948,87.6A6,6,0,1,1,86.13,98.1Z" transform="translate(22.97 5679.109)" fill="#fff"/>
+    <path id="Union_6" data-name="Union 6" d="M85.828,95.943,5.362,51.34l.057-.1L0,48.14l15.08-8.28-.072.149L85.828.753a6,6,0,0,1,5.818,10.5l-66.929,37.1,66.929,37.1a6,6,0,1,1-5.818,10.5Z" transform="translate(313.01 5777.96) rotate(180)" fill="#fff"/>
+    <rect id="Rectangle_33" data-name="Rectangle 33" width="16" height="145" rx="8" transform="translate(191.566 5658.234) rotate(25)" fill="#fff"/>
+  </g>
+</svg>

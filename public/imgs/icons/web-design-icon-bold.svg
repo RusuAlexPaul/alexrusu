@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <g id="Group_23" data-name="Group 23" transform="translate(227 -4481)">
+    <g id="Ellipse_1187" data-name="Ellipse 1187" transform="translate(-227 4481)" stroke="#000" stroke-width="15">
+      <circle cx="400" cy="400" r="400" stroke="none"/>
+      <circle cx="400" cy="400" r="392.5" fill="none"/>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(424 2432)">
+      <g id="Rectangle_19" data-name="Rectangle 19" transform="translate(-502 2488)" fill="none" stroke="#fff" stroke-width="6">
+        <rect width="69" height="122" rx="12" stroke="none"/>
+        <rect x="3" y="3" width="63" height="116" rx="9" fill="none"/>
+      </g>
+      <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(-162 2393)" fill="none" stroke="#fff" stroke-width="11">
+        <rect width="161" height="213" rx="14" stroke="none"/>
+        <rect x="5.5" y="5.5" width="150" height="202" rx="8.5" fill="none"/>
+      </g>
+      <path id="Union_4" data-name="Union 4" d="M168,381c-9.941,0-18.932-6.141-16.2-18l11.395-57H49V281H320v25H249.6L263,363c3.939,15.553-8.059,18-18,18ZM17,230H0V17A17,17,0,0,1,17,0H397a17,17,0,0,1,17,17V135H398V18H17V230Z" transform="translate(-482 2258)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
