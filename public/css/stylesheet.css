@@ -1,9 +1,7 @@
-html, body{
+html, body {
   overflow-x: hidden;
 }
-a{
-  font-family: 'Helvetica Neue', sans-serif;
-}
+
 
 .text1{
   font-family: 'Source Sans Pro', sans-serif;
@@ -13,9 +11,25 @@ a{
   line-height: 0.5;
   margin-bottom: .5rem;
 }
-.btn{
+
+.hire-me:hover {
+  color:#2d313c;
+  text-decoration: none;
+}
+
+.btn {
   font-family: 'Helvetica Neue', sans-serif;
 }
+
+.fdb-block .fdb-box {
+    background: #FFF;
+    padding: 3.75rem 2.5rem;
+    overflow: hidden;
+    color: #444;
+    border-radius: .25rem;
+    box-shadow: 0 .001rem .001rem 0 rgba(129,129,129,.2)!important;
+}
+
 .lead{
   font-family: 'Helvetica Neue', sans-serif;
   color: black;
@@ -24,12 +38,14 @@ a{
   line-height: 1;
   margin-bottom: 2rem;
 }
+
 .bold-nomad{
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 350;
   color: black;
   font-size: 60px;
 }
+
 .primary-text {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 300;
@@ -38,6 +54,7 @@ a{
   margin-bottom: .5rem;
   font-size: 60px;
 }
+
 .profile-website {
   top: 150px;
   right: 0;
@@ -71,6 +88,7 @@ a{
   position: relative;
   display: inline-block;
 }
+
 .twitter-icon .img-top{
    display: none;
    position: absolute;
@@ -79,6 +97,7 @@ a{
    z-index: 99;
 
 }
+
 .twitter-icon:hover .img-top{
   display: inline;
 }
@@ -90,6 +109,7 @@ a{
   position: relative;
   display: inline-block;
 }
+
 .github-icon .img-top{
   display: none;
   position: absolute;
@@ -98,6 +118,7 @@ a{
   z-index: 99;
 
 }
+
 .github-icon:hover .img-top{
  display: inline;
 }
@@ -109,6 +130,7 @@ a{
   position: relative;
   display: inline-block;
 }
+
 .linkedin-icon .img-top{
   display: none;
   position: absolute;
@@ -116,6 +138,7 @@ a{
   left: 0;
   z-index: 99;
 }
+
 .linkedin-icon:hover .img-top{
  display: inline;
 }
@@ -127,6 +150,7 @@ a{
   position: relative;
   display: inline-block;
 }
+
 .web-design-icon .img-top{
   display: none;
   position: absolute;
@@ -134,6 +158,7 @@ a{
   left: 80px;
   z-index: 99;
 }
+
 .web-design-icon:hover .img-top{
  display: inline;
 }
@@ -145,6 +170,7 @@ a{
   position: relative;
   display: inline-block;
 }
+
 .web-dev-icon .img-top{
   display: none;
   position: absolute;
@@ -152,6 +178,7 @@ a{
   left: 80px;
   z-index: 99;
 }
+
 .web-dev-icon:hover .img-top{
  display: inline;
 }
@@ -163,6 +190,7 @@ a{
   position: relative;
   display: inline-block;
 }
+
 .wordpress-icon .img-top{
   display: none;
   position: absolute;
@@ -170,13 +198,15 @@ a{
   left: 80px;
   z-index: 99;
 }
+
 .wordpress-icon:hover .img-top{
  display: inline;
 }
 
 .work-section{
-  background-color: #f8f9fadc !important;
+  background-color: #f1f1f1 !important;
 }
+
 .fdb-block .fdb-box {
   background: #FFF;
   padding: 0;
@@ -187,15 +217,20 @@ a{
   height: 300px !important;
 } 
 
-  .services{
+.services {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 400;
   color: #474747;
 }
+
 .works{
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 300;
   color: #474747;
+}
+
+.btn-outline-dark{
+  border-radius: 0 !important;
 }
 
 .btn-dark{
@@ -203,34 +238,39 @@ a{
     background-color: transparent !important;
     border-color: #746D69 !important;
 }
-.btn-dark:hover{
+
+.btn-dark:hover {
     color: #E8E9EB;
     background-color: #746D69 !important;
     border-color: #746D69 !important;
 }
-.footer-icon{
+
+.footer-icon {
   color: #E8E9EB !important;
 }
-.footer-icon:hover{
+
+.footer-icon:hover {
   color: #BBBCB6 !important;
 }
-.home-icons{
+
+.home-icons {
   color: #746D69 !important;
 }
-.home-icons:hover{
+
+.home-icons:hover {
   animation-duration: 2s;
   color: black !important;
 }
-.work-hover {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .5s ease-in-out;  
-    }
 
-    img:hover {
-    filter: none;
-      -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1);
-    }
-  }
+.work-hover {
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .5s ease-in-out;  
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1);
+}
+
